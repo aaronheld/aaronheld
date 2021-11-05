@@ -1,10 +1,10 @@
-class Main {
-  public static void main(String[] args) {
-  //  int[][] items = new int[][] {{2,2,3},{6,10,12}};
-    int[] weight = new int [] {2,3,4,2,3};
-    int[] value = new int[] {6,10,2,15,12};
-    System.out.println(dynamicMaxVal(weight, value,5,0));
-    System.out.println(maxVal(weight, value, 5, 0));
+class 01Knapsack {
+  public static void main(String[] args) { //test cases
+//   //  int[][] items = new int[][] {{2,2,3},{6,10,12}};
+//     int[] weight = new int [] {2,3,4,2,3};
+//     int[] value = new int[] {6,10,2,15,12};
+//     System.out.println(dynamicMaxVal(weight, value,5,0));
+//     System.out.println(maxVal(weight, value, 5, 0));
   }
   public static int maxVal(int[] weights, int[] vals, int maxWeight, int startIndex) {
     if(startIndex >= vals.length){
